@@ -6,9 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="2f12587f-a59e-4817-9e2e-1caff9b1d470" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-ver-control/.dvc/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/data-ver-control/.dvc/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-ver-control/data/prepared/test.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-ver-control/data/prepared/train.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-ver-control/dvc.lock" beforeDir="false" afterPath="$PROJECT_DIR$/data-ver-control/dvc.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-ver-control/dvc.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/data-ver-control/dvc.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-ver-control/model/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/data-ver-control/model/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

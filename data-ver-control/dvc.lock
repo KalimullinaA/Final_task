@@ -17,3 +17,16 @@ stages:
     - path: data/prepared/train.csv
       md5: e32b5af5f58e67d6241f1b95d0d0e789
       size: 248768
+  train:
+    cmd: python src/train.py
+    deps:
+    - path: data/prepared/train.csv
+      md5: e32b5af5f58e67d6241f1b95d0d0e789
+      size: 248768
+    - path: src/train.py
+      md5: 37545ae422a6f1ed184c51b2fe30a316
+      size: 1371
+    outs:
+    - path: model/model.joblib
+      md5: 1064ab414a6a96383bf9625443a7da49
+      size: 241148

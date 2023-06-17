@@ -7,3 +7,10 @@ stages:
     outs:
     - data/prepared/test.csv
     - data/prepared/train.csv
+  train:
+    cmd: python src/train.py
+    deps:
+    - data/prepared/train.csv
+    - src/train.py
+    outs:
+    - model/model.joblib
